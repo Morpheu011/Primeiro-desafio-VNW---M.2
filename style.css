@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+
+    body{ 
+    background-color:#001C80;}
+
+    header{
+    background-color: rgb(255 172 45);
+    height: 19vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;}
+        
+    .logoVNW{
+    height: 15vh;
+    transition:500ms ease-in-out;}
+
+    .logoVNW:hover{
+    cursor: pointer;
+    height: 100%;}
+
+    main{    
+    margin-top: 3.125rem;
+    margin-bottom: 1.563rem;
+    position: relative;
+    left: 25%;
+    height: 100%;
+    width: 50vw;
+    border: 5px solid rgb(246, 97, 30);
+    background-color: rgb(255 172 45)}
+            
+    h1{
+    font-family:'Oswald', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: rgba(246,97,30, 0.3);}
+    
+    ol{
+    font-family: 'Roboto', sans-serif;
+    list-style: none;
+    text-align: initial;
+    line-height: 2rem;}
+
+    #obs{
+    color: red;
+    font-weight: 700;}
+
+    .posições{
+    font-weight: 700;}
+
+    img{
+    width: 49vw;}
+
+    figcaption{
+    text-align: center;
+    font-weight: 700;}
+    
+    footer{
+    background-color: #0f2b92;
+    border-top: 1px solid rgb(246, 97, 30);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;}
+
+    footer p{ 
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10px;
+    line-height: 1;
+    letter-spacing: normal;
+    color: whitesmoke;
+    text-decoration: underline;}
+
+    footer nav{
+    height: 16vh;
+    width: 5vw;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    position: relative;
+    left: 27.4rem;
+    }
+
+    footer nav svg{
+    height: 8vh;
+    width: 5vw;}
